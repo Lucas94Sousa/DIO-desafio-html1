@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <title>Curso de HTML</title>
+</head>
+
+<body>
+    <h1><i>Curso de HTML</i></h1>
+    <hr />
+    <h2 id="in"><u>Índice</u></h2>
+    <ul>
+        <strong>
+        <li><a href="#hw">História da Web</a></li>
+        <li><a href="#cl">O que são Clients?</a></li>
+        <li><a href="#se">O que são Servers?</a></li>
+        <li><a href="#lpw">Sobre linguagens de programação web</a></li>
+        <li><a href="#eh">Estrutura do HTML</a></li>
+        <li><a href="#ft">Falando sobre Tags</a></li>
+        <li><a href="#at">Atributos das Tags</a></li>
+        <li><a href="#te">Textos</a></li>
+        <li><a href="#lo">Listas Ordenadas e não Ordenadas</a></li>
+        <li><a href="#li">Links</a></li>
+        <li><a href="#re">Referências</a></li>
+        </strong>
+    </ul>
+    <hr />
+    <h2 id="hw">História da Web</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Os computadores de primeira geração funcionavam por meio de circuitos e válvulas eletrônicas. O Mark I foi o
+        primeiro
+        computador eletromecânico desenvolvido nos Estados Unidos, construído em 1944 foi à primeira máquina operacional
+        que
+        poderia executar cálculos longos automaticamente. Logo depois, em 1946 foi criado pela a Alemanha o Colossus, um
+        computador para criptoánalises servindo para cálculos relacionados à guerra. No mesmo ano os EUA desenvolveu o
+        ENIAC, um computador mais avançado do quê o MARK I. Os computadores da segunda geração funcionavam por meio de
+        transistores, os quais substituíram as válvulas que eram
+        maiores e mais lentas. Os computadores da terceira geração funcionavam por circuitos integrados. Esses
+        substituíram os transistores e já
+        apresentavam uma dimensão menor e maior capacidade de processamento. Já a quarta geração que iniciou em 1971 até
+        os dias atuais, foram incluídos os microprocessadores.
+    </p>
+    <p>
+        Um dos primeiros sistemas de cominicação foi o telégrafo que utilizava códigos para a comunicação, em 1958 foi
+        implantado um cabo que ligava dois continentes realizando a primeira comunicação intercontinental. Durante a
+        Guerra fria, Licklider teorizou sobre uma rede onde todos poderiam se comunicar através dela, e depois de muito
+        tempo surgiu a Arpanet com sistema de comunicação por pacotes, enviados um a um e que permitia múltiplos
+        destinos, estudos sobre nós e pontos de intersecções funcionando como “checkpoints”. A primeira conexão
+        estabelecida foi feita em 1969, posteriormente sendo criado o tcp/ip e implementando sub-redes. Em 1989, Tim
+        Berners-Lee viu a oportunidade de unir hipertexto com TCP/IP e criar a World Wide Web (WWW).
+    </p>
+    <hr />
+    <h2 id="cl">O que são Clients?</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Clients são os dispositivos que consomem informações da internet. E para se comunicar com a internet utilizamos
+        navegados, programas instalados nos dispositivos para interpretar os arquivos dos servidores web, seguindo
+        padrões w3c.
+    </p>
+    <p>
+        Aplicações Web são soluções criadas que possuem a internet como meio de comunicação entre Client x Server não
+        sendo necessário a sua instalação.
+    </p>
+    <hr />
+    <h2 id="se">O que são Servers?</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Servers são computadores ou sistemas computacionais que atendem requisições de dispositivos clientes, através de
+        uma ou mais redes que podem ser local ou web, capazes de executar aplicações, prover processamento e/ou
+        capacidade de armazenamento de dados.
+    </p>
+    <p>
+        O servidor é baseado em duas partes. A parte lógica são os softwares como os sistemas operacionais,
+        monitoramento
+        e servidores web. Já a parte física são os hardwares como os dispositivos de armazenamento, memoria e
+        processadores.
+    </p>
+    <p>
+        Existem diversos tipos de servidores como de arquivos, sistema capaz de armazenar e compartilhar uma grande
+        quantidade de informações em rede, servidos streaming para armazenar e transmitir conteúdo de áudio ou vídeo
+        localmente ou via internet, servidor e-mail é um equipamento configurado para armazenar e transferir e-mails
+        através de redes locais ou via internet e utilizam os protocolos SMTP, IMAP e POP3 para enviar e receber as
+        correspondências, servidor web é sistemas que fornecem serviços como disponibilizar conteúdo que são acessados
+        através de programas navegadores via protocolo HTTP (Hypertext Transfer Protocol).
+    </p>
+    <p>
+        A hospedagem de site é um serviço de armazenamento online que viabiliza a publicação de um site e seus arquivos
+        em um servidor, a fim de torná-lo disponível e acessível para toda a web.
+    </p>
+    <hr />
+    <h2 id="lpw">Sobre linguagens de programação web</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras
+        usadas para gerar programas (software).
+    </p>
+    <p>
+        As linguagens server-side são linguagens que o servidor entende, ou seja, aplicações que rodam no servidor. Isso
+        quer dizer que você vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu
+        navegador a resposta Php, js e java são exemplos de linguagem server-side.
+    </p>
+    <p>
+        A linguagem client-side, é uma linguagem que é executada no lado cliente, ou seja, no computador do próprio
+        usuário, e por isso é usada nas situações em que a linguagem server-side não tem alcance. O JS é um exemplo de
+        linguagem cliente-side.
+    </p>
+    <p>
+        O HTML não é linguagem de programação, é um arquivo de marcação que utiliza textos delimitados por nomes que o
+        navegador consegue interpretar, cada nome destes delimitadores, tem uma função e comportamento específico.
+    </p>
+    <hr />
+    <h2 id="eh">Estrutura do HTML</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        A estrutura básica do HTML consiste em duas partes. O head é onde ficarão as informações que serão carregadas
+        antes de exibir para o usuário. E o body é onde ficarão as informações que serão exibidas na página web.
+    </p>
+    <hr />
+    <h2 id="ft">Falando sobre Tags</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Tags HTML são instruções que informam ao navegador como formatar o texto. As tags são formadas por uma estrutura
+        própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele
+        elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que
+        fecham sozinhas . O fechamento de uma tag será definido com uma barra (/), sendo que no caso das
+        tags de auto fechamento, não há necessidade da presença desse caractere.
+    </p>
+    <hr />
+    <h2 id="at">Atributos das Tags</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Atributos são propriedades que uma tag pode ter, são palavras especiais usadas dentro da tag de abertura para
+        controlar o comportamento do elemento. Existem atributos globais, em que a maiorias das tags podem ter, e
+        atributos especifico de cada tag.
+    </p>
+    <hr />
+    <h2 id="te">Textos</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Texto é o que o usuário vai ler em um site. Cabeçalhos são normalmente utilizados para identificar páginas e
+        seções e possuem aparência diferenciada do restante do texto. No HTML há seis níveis de cabeçalhos/títulos que
+        podem ser utilizados por meio das tags h1, h2, h3, h4, h5 e h6, sendo h1 o maior e o mais relevante e h6 o menor
+        e o menos relevante. Parágrafos de texto são gerados na HTML por meio da tag p. Esse é um exemplo de tag cuja
+        disposição na tela se dá em forma de bloco, ou seja, um parágrafo é posto sempre abaixo do outro.
+    </p>
+    <hr />
+    <h2 id="lo">Listas Ordenadas e não Ordenadas</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Existem duas de listas principais no HTML, a lista ordenada e a não ordenada. A lista ordenada é representada
+        pela tag ol, são numeradas e precisão ser preenchidas por itens representadas pela tag li. A lista não ordenada
+        é representada pela tag ul, e são apenas marcadas sem numeração.
+    </p>
+    <hr />
+    <h2 id="li">Links</h2>
+    <small><a href="#in">Voltar</a></small>
+    <p>
+        Links são normalmente utilizados para direcionar o usuário para outras páginas, ou para outras partes da mesma
+        página. Nos dois casos, utilizamos a tag a, que possui o atributo href no qual indicamos o destino daquele link.
+    </p>
+    <h2 id="re">Referências</h2>
+    <ol>
+        <li><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596" target="_blank">Dev Media</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3schools</a></li>
+    </ol>
+
+</body>
+
+</html>
